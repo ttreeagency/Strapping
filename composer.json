@@ -1,6 +1,7 @@
 {
     "description": "Neos CMS project boostrapping with custom defaults",
     "type": "neos-package",
+    "license": "MIT",
     "name": "ttree/strapping",
     "require": {
         "neos/neos": "^3.0.0",
