@@ -1,0 +1,29 @@
+{
+    "description": "Neos CMS project boostrapping with custom defaults",
+    "type": "neos-package",
+    "name": "ttree/strapping",
+    "require": {
+        "neos/neos": "^3.0.0",
+        "ttree/stylesheet": "^3.0.0",
+        "ttree/script": "^3.0.0",
+        "ttree/fusion-documentfinder": "^1.0.0",
+        "packagefactory/atomicfusion": "^2.0.0",
+        "sitegeist/monocle": "^2.0.0"
+    },
+    "require-dev": {
+        "sitegeist/magicwand": "^2.0.0"
+    },
+    "conflict": {
+        "neos/nodetypes": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Strapping\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Strapping"
+        }
+    }
+}

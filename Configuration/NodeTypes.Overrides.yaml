@@ -1,0 +1,5 @@
+'Neos.Neos:PluginView':
+  abstract: true
+
+'Neos.Neos:Shortcut':
+  abstract: true
