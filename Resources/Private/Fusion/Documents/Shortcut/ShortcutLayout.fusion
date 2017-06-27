@@ -1,0 +1,3 @@
+prototype(Neos.Neos:ShortcutLayout) < prototype(Hsso.Website:Document.DefaultLayout) {
+    body = Neos.Neos:Shortcut
+}
