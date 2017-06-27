@@ -1,0 +1,26 @@
+prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
+    head {
+        xUaCompatible = Fusion:Tag {
+            tagName = 'meta'
+            attributes {
+                name = 'http-equiv'
+                content = 'ie=edge'
+            }
+            @position = 'before titleTag'
+        }
+
+        viewport = Fusion:Tag {
+            tagName = 'meta'
+            attributes {
+                name = 'viewport'
+                content = 'width=device-width, initial-scale=1'
+            }
+            @position = 'after titleTag'
+        }
+
+        stylesheets.site = StyleSheet:Resource {
+            uri = 'resource://Hsso.Website/Public/Styles/Frontend.css'
+        }
+    }
+    body = Ttree.Strapping:Document.Default
+}

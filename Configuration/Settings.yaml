@@ -14,3 +14,4 @@ Ttree:
     DocumentFinder:
       documentPrototype:
         suffix: Layout
+        fallback: 'Ttree.Strapping:Document.DefaultLayout'

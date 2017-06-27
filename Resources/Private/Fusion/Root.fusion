@@ -1,5 +1,7 @@
 namespace: Fusion = Neos.Fusion
 namespace: Strapping = Ttree.Strapping
+namespace: StyleSheet = Ttree.StyleSheet
+namespace: Script = Ttree.Script
 
 include: **/*
 
