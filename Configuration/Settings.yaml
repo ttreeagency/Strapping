@@ -1,0 +1,16 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Ttree.Strapping: true
+    userInterface:
+      translation:
+        autoInclude:
+          Ttree.Strapping:
+            - 'NodeTypes/**/*'
+
+Ttree:
+  Fusion:
+    DocumentFinder:
+      documentPrototype:
+        suffix: Layout

@@ -1,0 +1,9 @@
+'Ttree.Strapping:Headline':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Ttree.Strapping:Mixin.Title': true
+    'Ttree.Strapping:Constraint.MainArea': true
+  ui:
+    label: i18n
+    icon: 'icon-header'
+    position: 100

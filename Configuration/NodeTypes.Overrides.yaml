@@ -1,5 +1,16 @@
 'Neos.Neos:PluginView':
   abstract: true
 
-'Neos.Neos:Shortcut':
-  abstract: true
+'Ttree.Strapping:Document':
+  superTypes:
+    Neos.Neos:Document: true
+  constraints:
+    nodeTypes:
+      '*': false
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Ttree.Strapping:Constraint.MainArea': true
+          '*': false

@@ -1,0 +1,3 @@
+prototype(Ttree.Strapping:Content.Text) {
+    templatePath = 'resource://Ttree.Strapping/Private/Fusion/Components/Content.Text/Content.Text.html'
+}

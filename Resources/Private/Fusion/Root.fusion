@@ -1,0 +1,4 @@
+namespace: Fusion = Neos.Fusion
+namespace: Strapping = Ttree.Strapping
+
+include: **/*
