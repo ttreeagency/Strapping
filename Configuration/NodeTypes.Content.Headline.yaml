@@ -1,6 +1,6 @@
-'Ttree.Strapping:Headline':
+'Ttree.Strapping:Content.Headline':
   superTypes:
-    'Neos.Neos:Content': true
+    'Ttree.Strapping:Content': true
     'Ttree.Strapping:Mixin.Title': true
     'Ttree.Strapping:Constraint.MainArea': true
   ui:

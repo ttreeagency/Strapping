@@ -1,0 +1,7 @@
+'Ttree.Strapping:Content':
+  abstract: true
+  options:
+    fusion:
+      prototypeGenerator: Neos\Neos\Domain\Service\DefaultContentPrototypeGenerator
+  superTypes:
+    Neos.Neos:Content: true

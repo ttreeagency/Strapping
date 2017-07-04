@@ -1,9 +1,13 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
-<nav class="menu" role="navigation">
-    {parts.menu -> f:format.raw()}
-</nav>
-<main class="content">
-    {content.main -> f:format.raw()}
-</main>
+<div>
+    <div style="padding: 4em 2em;">
+        <nav class="menu" role="navigation">
+            {parts.menu -> f:format.raw()}
+        </nav>
+        <main class="content">
+            {content.main -> f:format.raw()}
+        </main>
+    </div>
+</div>
 {parts.scripts -> f:format.raw()}

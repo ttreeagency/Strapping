@@ -1,0 +1,3 @@
+prototype(Ttree.Strapping:Content.Headline) {
+    templatePath = 'resource://Ttree.Strapping/Private/Fusion/Components/Content.Headline/Content.Headline.html'
+}
