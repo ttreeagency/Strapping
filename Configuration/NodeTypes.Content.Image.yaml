@@ -1,0 +1,11 @@
+'Ttree.Strapping:Content.Image':
+  superTypes:
+    'Ttree.Strapping:Content': true
+    'Ttree.Strapping:Mixin.Image': true
+    'Ttree.Strapping:Mixin.Link': true
+    'Ttree.Strapping:Mixin.ImageCaption': true
+    'Ttree.Strapping:Constraint.MainArea': true
+  ui:
+    label: i18n
+    icon: 'icon-file-text'
+    position: 200
