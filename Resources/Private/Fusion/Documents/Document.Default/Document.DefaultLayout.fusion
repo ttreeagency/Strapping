@@ -18,5 +18,19 @@ prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
             @position = 'after titleTag'
         }
     }
-    body = Ttree.Strapping:Document.Default
+    body = Fusion:Case {
+        @ignoreProperties = ${['site', 'node', 'javascripts']}
+
+        documentFinder {
+            @position = 'before default'
+            condition = Ttree.Fusion:CanRender {
+                type = ${q(documentNode).property('_nodeType')}
+            }
+            type = ${q(documentNode).property('_nodeType')}
+        }
+
+        default {
+            type = Ttree.Strapping:Document.Default
+        }
+    }
 }
