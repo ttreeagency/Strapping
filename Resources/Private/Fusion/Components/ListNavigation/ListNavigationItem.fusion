@@ -1,0 +1,19 @@
+prototype(Ttree.Strapping:ListNavigationItem) < prototype(Fusion:Tag) {
+    @context.target = ${target}
+    tagName = 'li'
+
+    attributes {
+        class = ${component + '__item'}
+    }
+
+    content = Fusion:Tag {
+        tagName = 'a'
+        content = ${q(target).property('title')}
+        attributes {
+            class = ${component + '__link'}
+            href = NodeUri {
+                node = ${target}
+            }
+        }
+    }
+}

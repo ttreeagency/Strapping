@@ -1,5 +1,7 @@
-'Ttree.Strapping:Document':
-  abstract: true
+'Ttree.Strapping:Document.Default':
+  ui:
+    label: i18n
+    icon: 'icon-file-text-o'
   options:
     fusion:
       prototypeGenerator: Neos\Neos\Domain\Service\DefaultDocumentPrototypeGenerator

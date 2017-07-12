@@ -1,0 +1,3 @@
+prototype(Ttree.Strapping:Content.Image) {
+    templatePath = 'resource://Ttree.Strapping/Private/Fusion/Contents/Content.Image/Content.Image.html'
+}

@@ -1,0 +1,12 @@
+prototype(Ttree.Strapping:ListNavigation) < prototype(Fusion:Template) {
+    @context.collection = ${this.collection}
+    @context.component = ${this.component}
+
+    items = Fusion:Collection {
+        collection = ${collection}
+        itemRenderer = Ttree.Strapping:ListNavigationItem {
+            component = ${component}
+        }
+        itemName = 'target'
+    }
+}
