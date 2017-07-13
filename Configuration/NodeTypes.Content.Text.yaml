@@ -5,5 +5,5 @@
     'Ttree.Strapping:Constraint.MainArea': true
   ui:
     label: i18n
-    icon: 'icon-file-text'
+    icon: 'icon-align-left'
     position: 200
