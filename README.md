@@ -3,6 +3,11 @@ Strapping
 
 An opinionated boostrapt for your Neos CMS project. Used for all our current project, install commons packages and default settings.
 
+Friendly packages
+-----------------
+
+- Smart defaults to build Neos project based on ElasticSearch: [Strapping.ElasticSearch](https://github.com/ttreeagency/Strapping.ElasticSearch).
+
 Acknowledgments
 ---------------
 
