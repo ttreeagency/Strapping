@@ -1,0 +1,9 @@
+prototype(Ttree.Strapping:EditableTag) < prototype(Fusion:Tag) {
+	@context.property = ${this.property}
+	tagName = 'div'
+	content = ${q(node).property(this.property)}
+
+	@process.editable = Neos.Neos:ContentElementEditable {
+		property = ${property}
+	}
+}
