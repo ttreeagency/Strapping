@@ -1,7 +1,5 @@
 prototype(Ttree.Strapping:Document.Default) < prototype(Fusion:Template) {
     templatePath = 'resource://Ttree.Strapping/Private/Fusion/Documents/Document.Default/Document.Default.html'
 
-    main = PrimaryContent {
-        nodePath = 'main'
-    }
+    main = Ttree.Strapping:PrimaryContent
 }

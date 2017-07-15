@@ -1,0 +1,9 @@
+prototype(Ttree.Strapping:PrimaryContent) < prototype(Fusion:Array) {
+	main = PrimaryContent {
+		nodePath = 'main'
+	}
+
+	@process.contentWrapping = Neos.Neos:ContentElementWrapping {
+		renderCurrentDocumentMetadata = true
+	}
+}
