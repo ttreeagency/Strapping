@@ -7,9 +7,6 @@
       prototypeGenerator: Neos\Neos\Domain\Service\DefaultDocumentPrototypeGenerator
   superTypes:
     Neos.Neos:Document: true
-  constraints:
-    nodeTypes:
-      '*': false
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'
