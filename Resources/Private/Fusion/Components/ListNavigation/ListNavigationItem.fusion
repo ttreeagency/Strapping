@@ -8,7 +8,7 @@ prototype(Ttree.Strapping:ListNavigationItem) < prototype(Fusion:Tag) {
 
     content = Fusion:Tag {
         tagName = 'a'
-        content = ${q(target).property('title')}
+        content = ${target.label}
         attributes {
             class = ${component + '__link'}
             href = NodeUri {

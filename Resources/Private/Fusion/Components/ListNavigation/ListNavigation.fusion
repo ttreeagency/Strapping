@@ -6,6 +6,7 @@ prototype(Ttree.Strapping:ListNavigation) < prototype(Fusion:Template) {
         collection = ${collection}
         itemRenderer = Ttree.Strapping:ListNavigationItem {
             component = ${component}
+			content.attributes.id = ${String.md5(target.identifier)}
         }
         itemName = 'target'
     }
