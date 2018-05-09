@@ -1,4 +1,4 @@
-prototype(Ttree.Strapping:Document.Default) < prototype(Fusion:Template) {
+prototype(Ttree.Strapping:Document.Default) < prototype(Neos.Fusion:Template) {
     templatePath = 'resource://Ttree.Strapping/Private/Fusion/Documents/Document.Default/Document.Default.html'
 
     main = Ttree.Strapping:PrimaryContent

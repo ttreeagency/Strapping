@@ -1,8 +1,8 @@
-prototype(Ttree.Strapping:ListNavigation) < prototype(Fusion:Template) {
+prototype(Ttree.Strapping:ListNavigation) < prototype(Neos.Fusion:Template) {
     @context.collection = ${this.collection}
     @context.component = ${this.component}
 
-    items = Fusion:Collection {
+    items = Neos.Fusion:Collection {
         collection = ${collection}
         itemRenderer = Ttree.Strapping:ListNavigationItem {
             component = ${component}

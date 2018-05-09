@@ -1,4 +1,4 @@
-prototype(Ttree.Strapping:EditableTag) < prototype(Fusion:Tag) {
+prototype(Ttree.Strapping:EditableTag) < prototype(Neos.Fusion:Tag) {
 	@context.property = ${this.property}
 	tagName = 'div'
 	content = ${q(node).property(this.property)}

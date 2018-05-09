@@ -1,6 +1,6 @@
 prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
     head {
-        xUaCompatible = Fusion:Tag {
+        xUaCompatible = Neos.Fusion:Tag {
             tagName = 'meta'
             attributes {
                 name = 'http-equiv'
@@ -9,7 +9,7 @@ prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
             @position = 'before titleTag'
         }
 
-        viewport = Fusion:Tag {
+        viewport = Neos.Fusion:Tag {
             tagName = 'meta'
             attributes {
                 name = 'viewport'
@@ -18,7 +18,7 @@ prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
             @position = 'after titleTag'
         }
     }
-    body = Fusion:Case {
+    body = Neos.Fusion:Case {
         @ignoreProperties = ${['site', 'node', 'javascripts']}
 
         documentFinder {

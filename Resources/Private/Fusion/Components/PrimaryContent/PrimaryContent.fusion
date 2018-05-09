@@ -1,4 +1,4 @@
-prototype(Ttree.Strapping:PrimaryContent) < prototype(Fusion:Array) {
+prototype(Ttree.Strapping:PrimaryContent) < prototype(Neos.Fusion:Array) {
 	main = PrimaryContent {
 		nodePath = 'main'
 	}

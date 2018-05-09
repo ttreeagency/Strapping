@@ -1,4 +1,4 @@
-prototype(Ttree.Strapping:ListNavigationItem) < prototype(Fusion:Tag) {
+prototype(Ttree.Strapping:ListNavigationItem) < prototype(Neos.Fusion:Tag) {
     @context.target = ${target}
     tagName = 'li'
 
@@ -6,7 +6,7 @@ prototype(Ttree.Strapping:ListNavigationItem) < prototype(Fusion:Tag) {
         class = ${component + '__item'}
     }
 
-    content = Fusion:Tag {
+    content = Neos.Fusion:Tag {
         tagName = 'a'
         content = ${target.label}
         attributes {
