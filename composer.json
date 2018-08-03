@@ -9,7 +9,7 @@
         "ttree/script": "^3.0",
         "ttree/fusion-documentfinder": "^1.0",
         "ttree/eelshell": "^0.1",
-        "ttree/linkeddata": "^0.2"
+        "ttree/linkeddata": "^1.0"
     },
     "require-dev": {
         "sitegeist/magicwand": "^2.0.0"
