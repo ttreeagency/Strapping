@@ -1,4 +1,4 @@
-prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Page) {
+prototype(Ttree.Strapping:Document.DefaultLayout) < prototype(Neos.Neos:Page) {
     head {
         xUaCompatible = Neos.Fusion:Tag {
             tagName = 'meta'

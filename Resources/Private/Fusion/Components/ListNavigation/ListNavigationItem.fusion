@@ -11,7 +11,7 @@ prototype(Ttree.Strapping:ListNavigationItem) < prototype(Neos.Fusion:Tag) {
         content = ${target.label}
         attributes {
             class = ${component + '__link'}
-            href = NodeUri {
+            href = Neos.Neos:NodeUri {
                 node = ${target}
             }
         }
