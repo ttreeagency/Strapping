@@ -4,10 +4,10 @@
     "type": "neos-package",
     "license": "MIT",
     "require": {
-        "neos/neos": "^3.1 || ^4.0",
+        "neos/neos": "^4.0",
         "ttree/stylesheet": "^3.0",
         "ttree/script": "^3.0",
-        "ttree/fusion-documentfinder": "^1.0",
+        "ttree/fusion-documentfinder": "^2.0",
         "ttree/eelshell": "^0.1",
         "ttree/linkeddata": "^1.0"
     },
