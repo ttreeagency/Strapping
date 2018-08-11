@@ -21,7 +21,7 @@ class Package extends BasePackage
                 if ($step->getIdentifier() === 'neos.flow:systemfilemonitor') {
                     $fileMonitor = FileMonitor::createFileMonitorAtBoot('Fusion_Files', $bootstrap);
                     $packageManager = $bootstrap->getEarlyInstance(PackageManagerInterface::class);
-                    foreach ($packageManager->getActivePackages() as $packageKey => $package) {
+                    foreach ($packageManager->getFlowPackages() as $packageKey => $package) {
                         if ($packageManager->isPackageFrozen($packageKey)) {
                             continue;
                         }
