@@ -4,6 +4,6 @@ prototype(Ttree.Strapping:PrimaryContent) < prototype(Neos.Fusion:Array) {
 	}
 
 	@process.contentWrapping = Neos.Neos:ContentElementWrapping {
-		renderCurrentDocumentMetadata = true
+		renderCurrentDocumentMetadata = false
 	}
 }
