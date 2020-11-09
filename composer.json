@@ -4,7 +4,7 @@
     "type": "neos-package",
     "license": "MIT",
     "require": {
-        "neos/neos": "^4.0",
+        "neos/neos": "^4.0 | ^5.0",
         "ttree/stylesheet": "^3.0",
         "ttree/script": "^3.0",
         "ttree/fusion-documentfinder": "^2.0",
@@ -12,7 +12,7 @@
         "ttree/linkeddata": "^1.0"
     },
     "require-dev": {
-        "sitegeist/magicwand": "^2.0.0"
+        "sitegeist/magicwand": "^2.0.0 | ^4.1.1"
     },
     "autoload": {
         "psr-4": {
