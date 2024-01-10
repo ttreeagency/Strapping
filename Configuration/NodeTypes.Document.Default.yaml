@@ -2,9 +2,6 @@
   ui:
     label: i18n
     icon: 'icon-file-text-o'
-  options:
-    fusion:
-      prototypeGenerator: Neos\Neos\Domain\Service\DefaultDocumentPrototypeGenerator
   superTypes:
     Neos.Neos:Document: true
   childNodes:
