@@ -1,3 +1,9 @@
-prototype(Ttree.Strapping:Content.Text) {
-    templatePath = 'resource://Ttree.Strapping/Private/Fusion/Contents/Content.Text/Content.Text.html'
+prototype(Ttree.Strapping:Content.Text) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+		property = "text"
+	}
+
+	renderer = afx`
+		<div>{props.text}</div>
+	`
 }
