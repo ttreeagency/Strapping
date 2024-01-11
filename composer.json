@@ -10,9 +10,6 @@
         "ttree/fusion-documentfinder": "^2.0",
         "ttree/linkeddata": "^1.0"
     },
-    "require-dev": {
-        "sitegeist/magicwand": "^2.0.0 | ^4.1.1"
-    },
     "autoload": {
         "psr-4": {
             "Ttree\\Strapping\\": "Classes/"
