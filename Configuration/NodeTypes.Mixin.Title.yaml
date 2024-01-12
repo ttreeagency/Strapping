@@ -1,17 +1,16 @@
-'Ttree.Strapping:Mixin.Title':
+Ttree.Strapping:Mixin.Title:
   abstract: true
   properties:
     title:
       type: string
-      defaultValue: '<h1>Enter headline here</h1>'
+      defaultValue: '<h1>Add your own content...</h1>'
       ui:
         inlineEditable: true
-        aloha:
-          'format':
-            'p': false
-            'h1': true
-            'h2': true
-            'h3': true
-            'removeFormat': true
-          'link':
-            'a': true
+        inline:
+          editorOptions:
+            autoparagraph: true
+            formatting:
+              h1: true
+              h2: true
+              h3: true
+              removeFormat: true

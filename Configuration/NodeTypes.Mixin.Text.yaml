@@ -1,32 +1,33 @@
 # Text mixin
-'Ttree.Strapping:Mixin.Text':
+Ttree.Strapping:Mixin.Text:
   abstract: true
   properties:
     text:
       type: string
-      defaultValue: ''
+      defaultValue: 'Add your own content...'
       ui:
         inlineEditable: true
-        aloha:
-          placeholder: i18n
-          autoparagraph: true
-          'format':
-            'strong': true
-            'em': true
-            'u': false
-            'sub': false
-            'sup': false
-            'del': false
-            'p': true
-            'h1': true
-            'h2': true
-            'h3': true
-            'pre': true
-            'removeFormat': true
-          'table':
-            'table': true
-          'list':
-            'ol': true
-            'ul': true
-          'link':
-            'a': true
+        inline:
+          editorOptions:
+            placeholder: i18n
+            autoparagraph: true
+            formatting:
+              a: true
+              strong: true
+              em: true
+              u: false
+              sub: false
+              sup: false
+              del: false
+              p: true
+              h1: true
+              h2: true
+              h3: true
+              pre: true
+              removeFormat: true
+              table: true
+              ol: true
+              ul: true
+            linking:
+              anchor: true
+              title: true
