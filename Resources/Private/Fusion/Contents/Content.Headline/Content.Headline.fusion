@@ -1,3 +1,9 @@
-prototype(Ttree.Strapping:Content.Headline) {
-    templatePath = 'resource://Ttree.Strapping/Private/Fusion/Contents/Content.Headline/Content.Headline.html'
+prototype(Ttree.Strapping:Content.Headline) < prototype(Neos.Neos:ContentComponent) {
+	title = Neos.Neos:Editable {
+		property = "title"
+	}
+
+	renderer = afx`
+		<div>{props.title}</div>
+	`
 }
